@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 450px;
+    background-color: rgb(64, 77, 97);
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgb(127, 155, 179);
+    padding: 20px;
+}
+.title{
+    /* color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+.temp-icon{
+    font-size: 45px;
+    color: white;
+
+}
+h1{
+    color: white;
+    letter-spacing: 1.4px;
+}
+
+#celcius ,#Fahrenheit ,#Kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+
+}
+ input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+ }
+
+ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+ }
+ input{
+    -moz-appearance: textfield;
+ }
+ .icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(96, 76, 76);
+    border-radius: 0 8px 8px 0;
+
+ }
+ .button{
+    margin-top: 25px;
+    text-align: center;
+ }
+  .button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+  .button button:hover{
+    background-color: rgb(165, 153, 153);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    /* box-shadow; */
+  }
